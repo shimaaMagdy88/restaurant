@@ -1,0 +1,294 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+/* START GRID SYSTEM */
+.row{
+    width:100%;
+    display:flex;
+}
+.container{
+    width:75%;
+    margin:auto;
+}
+.container-fluid{
+    width:100%;
+}
+.col-12{
+    width: calc(100% * 12/12);
+}
+.col-6{
+    width: calc(100% * 6/12);
+}
+.col-8{
+    width: calc(100% * (8/12));
+}
+.col-3{
+    width: calc(100% * 3/12);
+}
+.col-4{
+    width: calc(100% * (4/12));
+}
+.col-7{
+    width: calc(100% * (7/12));
+}
+
+/* END GRID SYSTEM */
+
+/* START NAVBAR */
+.navbar-links{
+    text-align: right;
+    width:100%;
+}
+.nav-row{
+    padding: 15px 0px;
+}
+.navbar-links ul{
+    padding-top:20px;
+}
+.navbar-links ul li{
+    display: inline-block;
+    list-style: none;
+    font-family: monospace;
+}
+.navbar-links ul li a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    padding: 10px;
+    color:black;
+}
+.navbar-links ul li a:hover{
+    color:#FA6453;
+    transition: color 0.5s;
+}
+/* END NAVBAR */
+
+/* START HOME */
+.home-row{
+    margin-bottom: 20px;
+}
+.home-img img{
+    width:100%;
+    height: 90vh;
+}
+.home-img{
+    position: relative;
+}
+.home-img .home-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.home-img .home-text h4{
+    margin-bottom:5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color:white;
+}
+.home-img .home-text h6{
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.home-img .home-text button{
+    color:#FA6453;
+    background-color: white;
+    border:hidden;
+    border-radius: 3px;
+    padding:15px;
+    margin-top:20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.home-img .home-text button:hover{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+/* END HOME */
+
+/* START ABOUT */
+.about-row{
+    padding:80px 0px;
+}
+.about-row h2{
+    color:#FA6453;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.about-row h1{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    margin:20px 0px;
+    width:70%;
+    font-family: sans-serif;
+}
+.about-row p{
+    font-size: large;
+    /* font-weight:lighter; */
+    padding-bottom: 20px;
+}
+.about-row p a{
+    text-decoration: none;
+}
+.about-row .right-img{
+    padding:40px;
+}
+.about-row .right-img img{
+    width:100%;
+}
+/* END ABOUT */
+
+/* START MENU */
+.menu{
+    background-color: rgba(255, 182, 193, 0.089);
+    padding:80px 0px;
+    margin-top:20px;
+}
+.menu .menu-text{
+    margin:20px ;
+}
+.menu .menu-text h2{
+    color:#FA6453;
+    font-weight: 200;
+    font-size:20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.menu .menu-text h1{
+    width:40%;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.menu-row .menu-img{
+    margin:10px;
+}
+/* END MENU */
+
+/* START CHEFS */
+.chef-text{
+    text-align: center;
+    margin:40px 0px;
+    padding-top:40px;
+}
+.chef-text h2{
+    color:#FA6453;
+    font-weight: 200;
+    font-size:20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.chef-text h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.chef-row{
+    padding-bottom: 80px;
+}
+.chef-row .chef-img{
+    border:1px solid rgba(0, 0, 0, 0.385);
+    margin:10px;
+    padding:5px 5px 25px;
+    text-align: center;
+}
+.chef-row .chef-img img{
+    padding-bottom: 20px;
+}
+/* END CHEF */
+
+/* START CONTACT */
+.contact{
+    background-image: url(./images/reservation-bg.jpg);
+    height: 100vh;
+}
+.contact .contact-text{
+    color:white;
+    padding:120px 0px;
+}
+.contact .contact-text h2{
+    font-weight: 200;
+    font-size:20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact .contact-text h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.contact .contact-text p{
+    font-size: large;
+}
+.contact .contact-phone div{
+    background-color: white;
+    margin:0px 15px 15px;
+    padding:30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.contact .contact-phone h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding:10px;
+}
+.contact .contact-phone a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 100;
+    color:black;
+    margin:10px;
+}
+.contact .contact-phone a:hover{
+    color:#FA6453;
+    transition: color 0.5s;
+}
+.contact form{
+    background-color: white;
+    margin:100px 0px 100px 60px;
+    border-radius: 5px;
+    padding:40px;
+    text-align: center;
+}
+.contact form h1{
+    font-family: sans-serif;
+    padding:10px;
+}
+.contact form input{
+    padding:10px;
+    margin:10px;
+    border:1px solid gainsboro;
+    border-radius: 5px;
+    width:180px;
+}
+.contact form input:hover{
+    border:1px solid #FA6453;
+}
+.contact form textarea{
+    margin-top: 10px;
+    padding: 20px;
+    border:1px solid gainsboro;
+    border-radius: 5px;
+}
+.contact form button{
+    margin:10px;
+    padding:15px;
+    width:390px;
+    border:hidden;
+    border-radius: 3px;
+    background-color: #FA6453;
+    color:white;
+}
+.contact form button:hover{
+    background-color: #fa6453db;
+}
+/* END CONTACT */
